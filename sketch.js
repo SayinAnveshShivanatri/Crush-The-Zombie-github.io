@@ -48,3 +48,10 @@ function draw() {
 // On the mousePressed property of the button call the handleButtonPress() function.
 // Create a handleButtonPress() function. In this function detach() the jointLink. 
 // Use the setTimeout() function to call the bridge.break() after 5 seconds.
+
+// CRUSH THE ZOMBIES 3
+// Load the sad zombie image in the preload() function.
+// Add the sad image to the zombie sprite using the addImage() function.
+// To detect the collision between the zombie and the stone, you’ll need to check the distance between them.
+// If the distance is less than 50 then set the zombie’s velocity to 0 and set it to the sad image.
+// In the draw() function where you created the stones, use the dist() function to check for the distance between zombie and stone.
