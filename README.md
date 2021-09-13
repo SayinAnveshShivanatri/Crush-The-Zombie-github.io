@@ -1,1 +1,2 @@
-# Crush-The-Zombie-github.io
+# zombie-crush-boilerplate
+boilerplate for crush the zombie game
