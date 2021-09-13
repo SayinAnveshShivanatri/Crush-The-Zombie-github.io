@@ -23,6 +23,7 @@ function draw() {
 
 }
 
+// CRUSH THE ZOMBIES 1
 // 1. Create a Base class and add the class in the index.html file.
 // 2. Using this Base class create a ground and walls on both sides of the ground.
 // 3. We already have the Bridge class code provided to us in the project folder. So we’ll create a link to link the bridge from the right wall to the left wall.
@@ -36,3 +37,14 @@ function draw() {
 // 11. In the sketch.js file create an empty stones array.
 // 12. Use a for loop to create 8 stones at random locations and push them in the stones array.
 // 13. Use the for loop on the stones array and display them in the draw function.
+
+// CRUSH THE ZOMBIES 2
+// In the sketch.js file create a preload function.
+// In this function load the zombie image and the background image.
+// Create a zombie using createSprite. And using addAnimation add “left to right” and “right to left” animation.
+// Set velocityX to 10 to the zombie to add movement.
+// Call the drawSprites() function in the draw() function.
+// Create a button using the createButton function and call it breakButton.
+// On the mousePressed property of the button call the handleButtonPress() function.
+// Create a handleButtonPress() function. In this function detach() the jointLink. 
+// Use the setTimeout() function to call the bridge.break() after 5 seconds.
